@@ -46,7 +46,7 @@ for mail in mails:
     email = mail.strip()
     # Headers : your personal address, date, subject, message
     msg = EmailMessage()
-    msg['From'] = f'<{getenv("EMAIL")}>'
+    msg['From'] = f'John Doe <{getenv("EMAIL")}>'
     msg['To'] = email
     msg["Date"] = formatdate(localtime=True)
     msg['Subject'] = 'Subject of your message'
