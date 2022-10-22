@@ -18,7 +18,9 @@ Structure is the following :
 - EMAIL="your_email_address"
 - PASSWORD="your_password"
 
-Make sure you have changer the server of your mail address in smtplib.SMTP('SMTP.office365.com') or smtplib.SMTP('SMTP.gmail.com')
+Make sure you have changed the server of your mail address by smtplib.SMTP('SMTP.office365.com') or smtplib.SMTP('SMTP.gmail.com').
+
+It depends on which server your email is using, for example outlook or gmail.
 
 2) Change the subject and the message of msg["Subject"] and msg.set_content()
 
